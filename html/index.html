@@ -3,28 +3,43 @@
     <head>
         <link rel="stylesheet" href="../css/main.css">
         <meta charset="UTF-8">
-        <title></title>
+        <title>G&K - Homepage</title>
     </head>
-    <header>
+    <body>
         <div class="navbar">
-            <h3>G&K</h3>
+            <h3 class="banner">M&M</h3>
             <ul>
-                <li><a class="isSelected" href="index.html">Home</a></li>
+                <li class="isSelected"><a href="index.html">Home</a></li>
                 <li><a href="Story.html">Our Story</a></li>
                 <li><a href="Photos.html">Photos</a></li>
                 <li><a href="Menu.html">Dinner Menu</a></li>
                 <li><a href="Agenda.html">Bar Menu</a></li>
             </ul>
         </div>
-    </header>
-    <body>
-        <div>
-            <h1>Guilio & Kenedi</h1>
-            <p>12 Feb 2022</p>
-            <div class="btn">
-                <button>Click me!</button>
+        <div class="main">
+            <div id="homepageImage">
+                <img class="main-img" src="../img/wedding_rings.jpg" alt="Wedding Rings" width="80%">
+                <div class="overLightImg">
+                    <h1>M & M</h1>
+                    <p>12 Feb 2022</p>
+                </div>
+            </div>
+            <div class="container">
+                <div id="quiz-wrapper" class="hidden">
+                    <div id="questions">Questions</div>
+                    <div id="choices" class="choice-btns">
+                        <button class="btn">Choice A</button>
+                        <button class="btn">Choice B</button>
+                        <button class="btn">Choice C</button>
+                        <button class="btn">Choice D</button>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button id="start-btn" class="start-btn btn">Do you know us?</button>
+                    <button id="next-btn" class="next-btn btn hidden">Next</button>
+                </div>
             </div>
         </div>
-        <script src="../js/functions.js"></script>
     </body>
+    <script src="../js/functions.js"></script>
 </html>
