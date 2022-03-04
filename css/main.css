@@ -44,11 +44,11 @@ body {
 }
 
 .main {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
     padding: 2px;
-    top: 25vh;
-    position: relative;
+    top: 0;
+    position: fixed;
     text-align: center;
 }
 
