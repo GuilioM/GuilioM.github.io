@@ -1,10 +1,17 @@
 const startBtn = document.getElementById("start-btn")
 const nextBtn = document.getElementById("next-btn")
-const quizContainer = document.getElementById("quiz-wrapper")
+const quizWrapper = document.getElementById("quiz-wrapper")
 let shuffleQs, currentIndex
 const qElement = document.getElementById('questions')
 const choiceElement = document.getElementById('choices')
 const shadeImg = document.getElementById('homepageImage')
+const showQuiz = document.getElementById('quiz-btn')
+const quizContainer = document.getElementById('quiz-container')
+
+showQuiz.addEventListener('click', () => {
+    quizContainer.classList.remove('hidden')
+    quizContainer.scollIntoView({behavior: 'smooth', block: 'end'})
+})
 
 startBtn.addEventListener('click', startQuiz)
 nextBtn.addEventListener('click', () => {
@@ -22,11 +29,12 @@ shadeImg.addEventListener('mouseout', () => {
     shadeImg.childNodes[3].classList.remove('whiten')
 })
 
+
 function startQuiz() {
     startBtn.classList.add('hidden')
     shuffleQs = questions.sort(() => Math.random() - .5)
     currentIndex = 0
-    quizContainer.classList.remove('hidden')
+    quizWrapper.classList.remove('hidden')
     nextQuestion()
 }
 
