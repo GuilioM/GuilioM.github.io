@@ -10,7 +10,7 @@ const quizContainer = document.getElementById('quiz-container')
 
 showQuiz.addEventListener('click', () => {
     quizContainer.classList.remove('hidden')
-    quizContainer.scollIntoView({behavior: 'smooth', block: 'end'})
+    quizContainer.scollIntoView({behavior: "smooth", block: "end"})
 })
 
 startBtn.addEventListener('click', startQuiz)
@@ -28,7 +28,6 @@ shadeImg.addEventListener('mouseout', () => {
     shadeImg.childNodes[1].classList.remove('img-darken')
     shadeImg.childNodes[3].classList.remove('whiten')
 })
-
 
 function startQuiz() {
     startBtn.classList.add('hidden')
