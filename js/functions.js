@@ -1,126 +1,150 @@
-const startBtn = document.getElementById("start-btn")
-const nextBtn = document.getElementById("next-btn")
-const quizWrapper = document.getElementById("quiz-wrapper")
-let shuffleQs, currentIndex
-const qElement = document.getElementById('questions')
-const choiceElement = document.getElementById('choices')
-const shadeImg = document.getElementById('homepageImage')
-const showQuiz = document.getElementById('quiz-btn')
-const quizContainer = document.getElementById('quiz-container')
-
-showQuiz.addEventListener('click', () => {
-    quizContainer.classList.remove('hidden')
-    quizContainer.scollIntoView({behavior: "smooth", block: "end"})
-})
-
-startBtn.addEventListener('click', startQuiz)
-nextBtn.addEventListener('click', () => {
-    currentIndex++
-    nextQuestion()
-})
-
-shadeImg.addEventListener('mouseover', () => {
-    shadeImg.childNodes[1].classList.add('img-darken')
-    shadeImg.childNodes[3].classList.add('whiten')
-})
-
-shadeImg.addEventListener('mouseout', () => {
-    shadeImg.childNodes[1].classList.remove('img-darken')
-    shadeImg.childNodes[3].classList.remove('whiten')
-})
-
-function startQuiz() {
-    startBtn.classList.add('hidden')
-    shuffleQs = questions.sort(() => Math.random() - .5)
-    currentIndex = 0
-    quizWrapper.classList.remove('hidden')
-    nextQuestion()
-}
-
-function nextQuestion() {
-    resetState()
-    showQ(shuffleQs[currentIndex])
-}
-
-function showQ(question) {
-    qElement.innerText = question.question
-    question.answers.forEach(answer => {
-        const button = document.createElement('button')
-        button.innerText = answer.text
-        button.classList.add('btn')
-        if (answer.correct) {
-            button.dataset.correct = answer.correct
-        }
-        button.addEventListener('click', selectAnswer)
-        choiceElement.appendChild(button)
-    })
-}
-
-function resetState() {
-    nextBtn.classList.add('hidden')
-    while (choiceElement.firstChild) {
-        choiceElement.removeChild(choiceElement.firstChild)
-    }
-}
-
-function selectAnswer(e) {
-    const choice = e.target
-    const correct = choice.dataset.correct
-    setStatusClass(document.body, correct)
-    Array.from(choiceElement.children).forEach(button => {
-        setStatusClass(button, button.dataset.correct)
-    })
-    if (shuffleQs.length > currentIndex + 1) {
-        nextBtn.classList.remove('hidden')
-    } else {
-        startBtn.innerText = 'Restart'
-        startBtn.classList.remove('hidden')
-        nextBtn.classList.add('hidden')
-    }
-
-}
-
-function setStatusClass(element, correct) {
-    removeStatusClass(element)
-    if(correct){
-        element.classList.add('correct')
-    } else {
-        element.classList.add('wrong')
-    }
-}
-
-function removeStatusClass (element){
-    element.classList.remove('correct')
-    element.classList.remove('wrong')
-}
 
 const questions = [
     {
-        question: 'Q1',
+        question: 'Where did we first meet?',
         answers: [
-            {text: 'A', correct: true},
-            {text: 'B', correct: false},
+            {text: 'Junior College', correct: true},
+            {text: 'Party', correct: false},
+            {text: 'Play dates', correct: false},
+            {text: 'Work', correct: false},
         ]
     },
     {
-        question: 'Q2',
+        question: 'What is our age difference?',
         answers: [
-            {text: 'E', correct: true},
-            {text: 'F', correct: false},
+            {text: '2 weeks', correct: true},
+            {text: '3 months', correct: false},
+            {text: '2 years', correct: false},
+            {text: '6 hours', correct: false},
         ]
     },
     {
-        question: 'Q3',
+        question: 'Who is older?',
         answers: [
-            {text: 'I', correct: true},
-            {text: 'J', correct: false},
+            {text: 'Richard', correct: true},
+            {text: 'Mary', correct: false},
         ]
     },
     {
-        question:'Q4',
+        question: 'What are our middle names? (Groom, Bride)',
         answers: [
-            {text:'N', correct:true},
-            {text:'O', correct:false},
+            {text: 'Eric, Modi', correct: true},
+            {text: 'Antonio, Anne', correct: false},
+            {text: 'Rich, Estelle', correct: false},
+            {text: 'Ricardo, Guadalupe', correct: false},
+        ]
+    },
+    {
+        question: 'What district were we born in? (Groom, Bride)',
+        answers: [
+            {text: 'Belize, Belize', correct: true},
+            {text: 'Belize, Jacksonville', correct: false},
+            {text: 'Jacksonville, Belize', correct: false},
+            {text: 'Cayo, Belize', correct: false},
+        ]
+    },
+    {
+        question: 'What is our favorite food? (Groom, Bride)',
+        answers: [
+            {text: 'Spaghetti, Chicken Nuggets', correct: true},
+            {text: 'Sandwiches, Egg Breakfast', correct: false},
+            {text: 'Tika Masala, Sweet and Sour Chicken', correct: false},
+            {text: 'Udon Soup, Pizza', correct: false},
         ]
     },
 ]
+
+const answerEls = document.querySelectorAll('.option')
+const optWrappers = document.querySelectorAll('.option-wrapper')
+const questionEl = document.getElementById('question')
+
+const opt1 = document.getElementById('A1-text')
+const opt2 = document.getElementById('A2-text')
+const opt3 = document.getElementById('A3-text')
+const opt4 = document.getElementById('A4-text')
+
+const optEls = [opt1, opt2, opt3, opt4]
+
+const progBar = document.getElementById('progress-bar-full')
+const nextQBtn = document.getElementById('btn-next')
+
+let currentQuiz = 0
+let score = 0
+let num = 0
+let rightOpt = ''
+
+loadQuiz()
+
+function loadQuiz() {
+    deselectAnswers()
+
+    const currentQuizData = questions[currentQuiz]
+
+    let currentOptions = shuffle(currentQuizData.answers)
+    questionEl.innerText = currentQuizData.question + " Score:" + score
+
+    currentOptions.forEach( option => {
+        optEls[num].innerText = option.text
+        optWrappers[num].classList.remove('hidden')
+        answerEls[num].classList.remove('hidden')
+
+        if(option.correct) {
+            rightOpt = answerEls[num].id
+        }
+        num++
+    })
+}
+
+function shuffle(arr) {
+    let i = arr.length, randI
+    while (i != 0) {
+        randI = Math.floor(Math.random() * i);
+        i--;
+
+        [arr[i], arr[randI]] = [arr[randI], arr[i]];
+    }
+    return arr;
+}
+
+function deselectAnswers() {
+    answerEls.forEach(answerEl => {
+        answerEl.checked = false
+        answerEl.classList.add('hidden')
+    })
+    optWrappers.forEach(opt => {
+        opt.classList.add('hidden')
+    })
+    num = 0
+}
+
+function getSelected() {
+    let answer
+    answerEls.forEach(answerEl => {
+        if (answerEl.checked) {
+            answer = answerEl.id //referring to answer(text, correct)
+        }
+    })
+    return answer
+}
+
+nextQBtn.addEventListener('click', () => {
+    const answer = getSelected(), currentQuizData = questions[currentQuiz].answers
+
+    if (answer === rightOpt) {
+        score++
+    }
+    textBox.innerHTML = `<h2>You chose ${answer} and the correct answer is ${rightOpt} </h2>`
+
+    currentQuiz++
+    progBar.style.width=((currentQuiz*16.66)+"%")
+
+    if (currentQuiz < questions.length) {
+        loadQuiz()
+    } else {
+        quiz.innerHTML = `<h2>you answered ${score}/${questions.length} questions correctly</h2>` +
+            `<button onclick="location.reload()">Reload</button>`
+        score = 0
+        num = 0
+        currentQuiz = 0
+    }
+})

@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="../css/main.css">
-        <meta charset="UTF-8">
-        <title>G&K - Homepage</title>
-    </head>
-    <header>
-        <div class="navbar">
-            <h3 class="banner">M&M</h3>
-            <ul>
-                <li class="isSelected"><a href="index.html">Home</a></li>
-                <li><a href="Story.html">Our Story</a></li>
-                <li><a href="Photos.html">Photos</a></li>
-                <li><a href="Menu.html">Dinner Menu</a></li>
-                <li><a href="Agenda.html">Bar Menu</a></li>
-            </ul>
-        </div>
-    </header>
-    <body>
-        <div class="main">
-            <div class="container" id="homepageImage">
-                <img class="main-img" src="../img/wedding_rings.jpg" alt="Wedding Rings" width="80%">
-                <div class="overLightImg">
+<head>
+    <link href="../css/main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>M&M - Homepage</title>
+</head>
+<header>
+    <div class="navbar">
+        <h3 class="banner">M&M</h3>
+        <ul>
+            <li class="isSelected"><a href="index.html">Home</a></li>
+            <li><a href="Story.html">Our Story</a></li>
+            <li><a href="Photos.html">Photos</a></li>
+            <li><a href="Menu.html">Dinner Menu</a></li>
+            <li><a href="Agenda.html">Bar Menu</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+<div id="wrapper">
+    <div id="main">
+        <div class="inner">
+            <section class="container" id="homepageImage">
+                <img alt="Wedding Rings" class="main-img" src="../img/wedding_rings.jpg">
+                <div class="overImg">
                     <h1>M & M</h1>
                     <h2>12 Feb 2022</h2>
-
-
-                    <div id="quiz-starter" class="flex-column, flex-centered">
+                    <div class="flex-centered" id="quiz-starter">
                         <h3>How well do you know us?</h3>
-                        <button class="btn" id="quiz-btn">Quiz me</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="container hidden" id="quiz-container">
-                <div id="quiz" class="flex-centered, flex-column">
-                    <div id="top-bar">
-                        <div class="progress">
-                            <div id="progress-bar">
-                                <div id="progress-bar-full"></div>
-                            </div>
-                        </div>
-                        <div class="score">
-                            <p class="score-indicator">
-                                Score
-                            </p>
-                            <h1 class="score-board" id="score">
-                                0
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="middle-bar">
-                        <div id="quiz-wrapper" class="hidden">
-                            <div id="questions">Questions</div>
-                            <div id="choices" class="choice-btns">
-                                <button class="btn">Choice A</button>
-                                <button class="btn">Choice B</button>
-                                <button class="btn">Choice C</button>
-                                <button class="btn">Choice D</button>
-                            </div>
-                        </div>
-
-                        <div class="btns">
-                            <button id="start-btn" class="start-btn btn">Do you know us?</button>
-                            <button id="next-btn" class="next-btn btn hidden">Next</button>
-                        </div>
+                        <button class="btn" id="quiz-starter-btn">Quiz me</button>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="container" id="quiz-box">
+                <div class="quiz-container" id="quiz">
+                    <div class="quiz-header">
+                        <h2 id="question">Insert Question Here</h2>
+                        <ul>
+                            <li class="option-wrapper">
+                                <input class="option" id="O1" name="option" type="radio">
+                                <label for="O1" id="A1-text">Answer 1</label>
+                            </li>
+                            <li class="option-wrapper">
+                                <input class="option" id="O2" name="option" type="radio">
+                                <label for="O2" id="A2-text">Answer 2</label>
+                            </li>
+                            <li class="option-wrapper">
+                                <input class="option" id="O3" name="option" type="radio">
+                                <label for="O3" id="A3-text">Answer 3</label>
+                            </li>
+                            <li class="option-wrapper">
+                                <input class="option" id="O4" name="option" type="radio">
+                                <label for="O4" id="A4-text">Answer 4</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="textBox"></div>
+                    <div id="progress-bar">
+                        <div id="progress-bar-full"></div>
+                    </div>
+                    <button id="btn-next">Next Question</button>
+                </div>
+            </section>
         </div>
-    </body>
-    <script src="../js/functions.js"></script>
+    </div>
+</div>
+</body>
+<script src="../js/functions.js"></script>
 </html>
