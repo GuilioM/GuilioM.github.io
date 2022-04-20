@@ -144,16 +144,15 @@ h3 {
 
 #progress-bar{
     width: 100%;
-    height: 0.2rem;
+    height: 0.3rem;
     border: none;
-    margin-top: 2rem;
     overflow: hidden;
 }
 
 #progress-bar-full{
     height: 100%;
     background: #B60643;
-    transition: all 0.4s ease-out;
+    transition: all 0.3s ease-out;
     width: 0%;
 }
 
@@ -205,14 +204,12 @@ ul li label {
 }
 
 #btn-next:hover{
-    background-color: #C9B47E;
+    background-color: #406430;
     transition: all 0.4s ease-in-out;
 }
 
 #btn-next:focus {
     outline: none;
-    background-color: #A16507;
-    color: white;
 }
 
 .main-img{

@@ -73,6 +73,12 @@ let score = 0
 let num = 0
 let rightOpt = ''
 
+let emerald = '023C32'
+let fiusha = 'B60643'
+let cream = 'DDD0AE'
+let gold = 'CEA449'
+let green = '406430'
+
 loadQuiz()
 
 function loadQuiz() {
@@ -122,6 +128,8 @@ function getSelected() {
     answerEls.forEach(answerEl => {
         if (answerEl.checked) {
             answer = answerEl.id //referring to answer(text, correct)
+        } else {
+            answer = ''
         }
     })
     return answer
@@ -130,6 +138,9 @@ function getSelected() {
 nextQBtn.addEventListener('click', () => {
     const answer = getSelected(), currentQuizData = questions[currentQuiz].answers
 
+    if (answer === '') {
+
+    }
     if (answer === rightOpt) {
         score++
     }
@@ -142,7 +153,7 @@ nextQBtn.addEventListener('click', () => {
         loadQuiz()
     } else {
         quiz.innerHTML = `<h2>you answered ${score}/${questions.length} questions correctly</h2>` +
-            `<button onclick="location.reload()">Reload</button>`
+            `<button id="btn-next" onclick="location.reload()">Reload</button>`
         score = 0
         num = 0
         currentQuiz = 0
