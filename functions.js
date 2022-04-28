@@ -174,6 +174,13 @@ optEls.forEach( optEl => {
 showQuiz.addEventListener('click', () => {
     quizBox.classList.remove("hidden")
     quizBox.scrollIntoView({behavior: 'smooth'})
+
+    document.getElementById('piano-song').play()
+    document.getElementById('piano-song').volume = 0.2
+})
+
+document.getElementById('btn-quit').addEventListener('click', () => {
+    document.getElementById('piano-song').reload()
 })
 
 
