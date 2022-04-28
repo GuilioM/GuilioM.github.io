@@ -54,6 +54,9 @@ const questions = [
     },
 ]
 
+const showQuiz = document.getElementById('quiz-starter-btn')
+const quizBox = document.getElementById('quiz-box')
+const quizContainer = document.getElementById('quiz-container')
 const answerEls = document.querySelectorAll('.option')
 const optWrappers = document.querySelectorAll('.option-wrapper')
 const questionEl = document.getElementById('question')
@@ -83,11 +86,13 @@ loadQuiz()
 
 function loadQuiz() {
     deselectAnswers()
+    nextQBtn.disabled = true
+    nextQBtn.style.cursor="not-allowed"
 
     const currentQuizData = questions[currentQuiz]
 
     let currentOptions = shuffle(currentQuizData.answers)
-    questionEl.innerText = currentQuizData.question + " Score:" + score
+    questionEl.innerText = currentQuizData.question + " Score: " + score + "/" + currentQuiz
 
     currentOptions.forEach( option => {
         optEls[num].innerText = option.text
@@ -104,12 +109,11 @@ function loadQuiz() {
 function shuffle(arr) {
     let i = arr.length, randI
     while (i != 0) {
-        randI = Math.floor(Math.random() * i);
-        i--;
-
-        [arr[i], arr[randI]] = [arr[randI], arr[i]];
+        randI = Math.floor(Math.random() * i)
+        i--
+        [arr[i], arr[randI]] = [arr[randI], arr[i]]
     }
-    return arr;
+    return arr
 }
 
 function deselectAnswers() {
@@ -123,14 +127,12 @@ function deselectAnswers() {
     num = 0
 }
 
+//Find the selected radio btn and return the ID
 function getSelected() {
     let answer
     answerEls.forEach(answerEl => {
-        if (answerEl.checked) {
-            answer = answerEl.id //referring to answer(text, correct)
-        } else {
-            answer = ''
-        }
+        if (answerEl.checked)
+            answer = answerEl.id
     })
     return answer
 }
@@ -139,23 +141,42 @@ nextQBtn.addEventListener('click', () => {
     const answer = getSelected(), currentQuizData = questions[currentQuiz].answers
 
     if (answer === '') {
-
-    }
-    if (answer === rightOpt) {
+        textBox.innerHTML = `<h2>Please select an option from above</h2>`
+    } else if (answer === rightOpt) {
         score++
+        textBox.innerHTML = `<h2>You chose the correct answer</h2>`
+    } else {
+        textBox.innerHTML = `<h2>You chose ${answer} and the correct answer is ${rightOpt} </h2>`
     }
-    textBox.innerHTML = `<h2>You chose ${answer} and the correct answer is ${rightOpt} </h2>`
 
     currentQuiz++
-    progBar.style.width=((currentQuiz*16.66)+"%")
 
     if (currentQuiz < questions.length) {
         loadQuiz()
     } else {
         quiz.innerHTML = `<h2>you answered ${score}/${questions.length} questions correctly</h2>` +
-            `<button id="btn-next" onclick="location.reload()">Reload</button>`
+            `<button class="btn-reload" onclick="location.reload()">Reload</button>`
         score = 0
         num = 0
         currentQuiz = 0
     }
 })
+
+optEls.forEach( optEl => {
+    optEl.addEventListener('click', () => {
+        nextQBtn.disabled = false
+        nextQBtn.style.cursor="pointer"
+
+        progBar.style.width=(16.66+(currentQuiz*16.66)+"%")
+    })
+})
+
+showQuiz.addEventListener('click', () => {
+    quizBox.classList.remove("hidden")
+    quizBox.scrollIntoView({behavior: 'smooth'})
+})
+
+
+/*
+*
+    * */

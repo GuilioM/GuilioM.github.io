@@ -3,17 +3,17 @@
 <head>
     <link href="../css/main.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>M&M - Homepage</title>
+    <title>R&M - Homepage</title>
 </head>
 <header>
     <div class="navbar">
-        <h3 class="banner">M&M</h3>
+        <h3 class="banner">R&M</h3>
         <ul>
             <li class="isSelected"><a href="index.html">Home</a></li>
             <li><a href="Story.html">Our Story</a></li>
             <li><a href="Photos.html">Photos</a></li>
             <li><a href="Menu.html">Dinner Menu</a></li>
-            <li><a href="Agenda.html">Bar Menu</a></li>
+            <li><a href="Bar.html">Bar Menu</a></li>
         </ul>
     </div>
 </header>
@@ -24,7 +24,7 @@
             <section class="container" id="homepageImage">
                 <img alt="Wedding Rings" class="main-img" src="../img/wedding_rings.jpg">
                 <div class="overImg">
-                    <h1>M & M</h1>
+                    <h1>R & M</h1>
                     <h2>12 Feb 2022</h2>
                     <div class="flex-centered" id="quiz-starter">
                         <h3>How well do you know us?</h3>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container" id="quiz-box">
+            <section class="container hidden" id="quiz-box">
                 <div class="quiz-container" id="quiz">
                     <div class="quiz-header">
                         <div id="progress-bar">
@@ -59,8 +59,8 @@
                         </ul>
                     </div>
                     <div id="textBox"></div>
-
-                    <button id="btn-next">Next Question</button>
+                    <span><button id="btn-next" class="cntrl-btn">Submit</button></span>
+                    <span><button id="btn-quit" class="cntrl-btn" onclick="location.reload()" >Quit</button></span>
                 </div>
             </section>
         </div>
