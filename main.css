@@ -26,10 +26,6 @@ div{
 }
 
 body {
-    justify-content: center;
-    align-items: center;
-    min-width: 320px;
-    min-height: 100vh;
     font-size: 1em;
     word-wrap: break-word;
     overflow: hidden;
@@ -46,6 +42,29 @@ body {
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+.gallery-wrapper {
+    padding-top: 15vh;
+    margin: auto;
+    max-width: 100%;
+    width: 80%;
+}
+
+.gallery-img {
+    height: auto;
+    padding: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #main {
@@ -289,13 +308,61 @@ ul li label {
     display: none;
 }
 
-@media screen and (max-width: 1440px) {
-    .toggle {
-        left: 96%;
+@media (min-width: 620px) {
+    .gallery-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 300px);
+        grid-auto-flow: row dense;
     }
 
-    .vlmButton, .hmeButton {
-        position: absolute !important;
-        top: 94% !important;
+    .gallery-img {
+        margin: 0.7rem;
+    }
+
+   .gallery-img:nth-child(2) {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .gallery-img:nth-child(5),
+    .gallery-img:nth-child(10),
+    .gallery-img:nth-child(17) {
+        grid-row: span 2;
+    }
+
+    .gallery-img:nth-child(11){
+        grid-column: span 2;
+    }
+    .gallery-img:nth-child(19),
+    .gallery-img:nth-child(18){
+        grid-row: span 2;
+    }
+}
+
+@media (min-width: 960px) {
+    .gallery-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-auto-flow: row dense;
+    }
+
+    .gallery-img:nth-child(6),
+    .gallery-img:nth-child(11),
+    .gallery-img:nth-child(13),
+    .gallery-img:nth-child(17),
+    .gallery-img:nth-child(20){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .gallery-img:nth-child(4),
+    .gallery-img:nth-child(15){
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .gallery-img:nth-child(2){
+        grid-column: span 2;
     }
 }

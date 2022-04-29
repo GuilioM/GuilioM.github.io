@@ -140,14 +140,9 @@ function getSelected() {
 nextQBtn.addEventListener('click', () => {
     const answer = getSelected(), currentQuizData = questions[currentQuiz].answers
 
-    if (answer === '') {
-        textBox.innerHTML = `<h2>Please select an option from above</h2>`
-    } else if (answer === rightOpt) {
+   if (answer === rightOpt)
         score++
-        textBox.innerHTML = `<h2>You chose the correct answer</h2>`
-    } else {
-        textBox.innerHTML = `<h2>You chose ${answer} and the correct answer is ${rightOpt} </h2>`
-    }
+
 
     currentQuiz++
 
