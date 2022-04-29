@@ -1,4 +1,3 @@
-
 const questions = [
     {
         question: 'Where did we first meet?',
@@ -177,8 +176,3 @@ showQuiz.addEventListener('click', () => {
 document.getElementById('btn-quit').addEventListener('click', () => {
     document.getElementById('piano-song').reload()
 })
-
-
-/*
-*
-    * */
