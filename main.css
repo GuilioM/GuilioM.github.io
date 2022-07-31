@@ -1,3 +1,8 @@
+root {
+    --gold: #A16507;
+    --emerald: #043330;
+}
+
 html, body, header {
     margin: 0;
     padding: 0;
@@ -91,7 +96,7 @@ img {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1;
     letter-spacing: 0;
     width: 100%;
@@ -115,7 +120,7 @@ h3 {
 
 .banner{
     padding: 2em;
-    color: #A16507;
+    color: #D5AF52;
     letter-spacing: 2px;
 }
 
@@ -124,7 +129,7 @@ h3 {
     padding: 0;
     width: 100vw;
     height: 10vh;
-    background-color: #043330;
+    background-color: #0A3B19;
     position: absolute;
     top: 0;
     display: flex;
@@ -167,7 +172,7 @@ h3 {
 
 #progress-bar-full{
     height: 100%;
-    background: #A16507;
+    background: #D5AF52;
     transition: all 0.3s ease-out;
     width: 0;
 }
@@ -212,46 +217,12 @@ a{
 }
 
 li:hover {
-    background-color: #A16507;
+    background-color: #D5AF52;
     border-radius: 10px;
 }
 
 ul li label {
     cursor: pointer;
-}
-
-#btn-next, #btn-quit {
-    background-color: #043330;
-    color: #DDD0AE;
-    border: none;
-    padding: 10px 15px;
-    margin: 0 auto;
-    display: inline-block;
-    width: calc(50% - 3px);
-    cursor: pointer;
-    font-size: 1.1rem;
-}
-
-.btn-reload {
-    background-color: #043330;
-    color: #DDD0AE;
-    border: none;
-    padding: 10px 15px;
-    margin: 0 auto;
-    display: flex;
-    cursor: pointer;
-    font-size: 1.1rem;
-    width: 100%;
-    justify-content: center;
-}
-
-#btn-next:hover, #btn-quit:hover{
-    background-color: #406430;
-    transition: all 0.4s ease-in-out;
-}
-
-#btn-next:focus, #btn-quit:focus {
-    outline: none;
 }
 
 .main-img{
@@ -261,47 +232,19 @@ ul li label {
 }
 
 .isSelected {
-    background-color: #A16507;
+    background-color: #D5AF52;
 }
 
 .overImg{
     position: absolute;
     display: block;
-    top: 10em;
-    background-color: rgba(153,153,153, 0.5);
-    border-radius: 25px;
+    bottom: 0.5em;
+    background-color: #0A3B19;
+    border-radius: 25px 25px 0 0;
     padding: 1em;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #043330;
-}
-
-.whiten{
-    transition: .5s;
-    color: white;
-}
-
-#quiz-starter-btn {
-    background-color: #A16507;
-    aspect-ratio: 16 / 9;
-    flex-grow: 1;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    width: 10rem;
-    outline: none;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-#quiz-starter-btn:hover {
-    font-size: 0.9rem;
-    transition: all 0.4s ease-in-out;
-}
-
-#quiz-starter button {
-    border: none;
+    height: 25%;
+    width: 100%;
+    color: #D5AF52;
 }
 
 .hidden {
