@@ -96,13 +96,15 @@ img {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-family: 'Great Vibes', serif;
+    font-size: 2em;
     line-height: 0;
     letter-spacing: 0;
     width: 100%;
 }
 
 h2 {
+    font-family: 'Bentham', serif;
     font-size: 1em;
     line-height: 1.6rem;
     letter-spacing: 0;
@@ -111,6 +113,10 @@ h2 {
 
 h3 {
     font-size: 1rem;
+}
+
+p {
+    font-family: 'Didact Gothic', serif;
 }
 
 .banner{

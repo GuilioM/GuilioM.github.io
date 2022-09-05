@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b3ad827-3c1d-4f1b-ae47-c1017dcb27cb" name="Changes" comment="Added real images&#10;Revised Story, Photos, Menus to 'coming soon'">
+    <list default="true" id="5b3ad827-3c1d-4f1b-ae47-c1017dcb27cb" name="Changes" comment="Revised Story">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Story.html" beforeDir="false" afterPath="$PROJECT_DIR$/Story.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <workItem from="1661811039634" duration="300000" />
       <workItem from="1661811621971" duration="27000" />
       <workItem from="1661812020376" duration="350000" />
-      <workItem from="1662128842946" duration="1736000" />
+      <workItem from="1662128842946" duration="6029000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662346277755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revised Story">
+      <created>1662346431626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662346431626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,7 @@
     <MESSAGE value="Recovered" />
     <MESSAGE value="Added fonts&#10;Revised main image subtitle" />
     <MESSAGE value="Added real images&#10;Revised Story, Photos, Menus to 'coming soon'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added real images&#10;Revised Story, Photos, Menus to 'coming soon'" />
+    <MESSAGE value="Revised Story" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revised Story" />
   </component>
 </project>
