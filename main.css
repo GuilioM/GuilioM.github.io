@@ -119,6 +119,10 @@ p {
     font-family: 'Didact Gothic', serif;
 }
 
+#days {
+
+}
+
 .banner{
     padding: 2em;
     color: #D5AF52;
@@ -189,6 +193,7 @@ a{
 li:hover {
     background-color: #D5AF52;
     border-radius: 10px;
+
     color: black;
 }
 

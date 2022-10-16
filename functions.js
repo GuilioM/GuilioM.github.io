@@ -1,4 +1,4 @@
-const questions = [
+/*const questions = [
     {
         question: 'Where did we first meet?',
         answers: [
@@ -51,8 +51,9 @@ const questions = [
             {text: 'Udon Soup, Pizza', correct: false},
         ]
     },
-]
+]*/
 
+const days = document.getElementById('days');/*
 const showQuiz = document.getElementById('quiz-starter-btn')
 const quizBox = document.getElementById('quiz-box')
 const quizContainer = document.getElementById('quiz-container')
@@ -73,7 +74,7 @@ const nextQBtn = document.getElementById('btn-next')
 let currentQuiz = 0
 let score = 0
 let num = 0
-let rightOpt = ''
+let rightOpt = ''*/
 
 let emerald = '023C32'
 let fiusha = 'B60643'
@@ -81,6 +82,38 @@ let cream = 'DDD0AE'
 let gold = 'CEA449'
 let green = '406430'
 
+var countDownDate = new Date("Jan 7, 2023 15:00:00").getTime();
+
+var x = setInterval(function () {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+    if (days > 0) {
+        document.getElementById("days").innerHTML = days + " days left";
+    } else if (hours > 0) {
+        document.getElementById("days").innerHTML = hours + " hours left";
+    } else if (minutes > 0) {
+        document.getElementById("days").innerHTML = minutes + " minutes left";
+    } else if (seconds > 0) {
+        document.getElementById("days").innerHTML = seconds + " seconds left";
+    } else {
+        document.getElementById("days").innerHTML = "Marriage in progress";
+    }
+
+}, 1000);
+
+/*
 loadQuiz()
 
 function loadQuiz() {
@@ -175,4 +208,4 @@ showQuiz.addEventListener('click', () => {
 
 document.getElementById('btn-quit').addEventListener('click', () => {
     document.getElementById('piano-song').reload()
-})
+}) */
