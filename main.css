@@ -119,10 +119,6 @@ p {
     font-family: 'Didact Gothic', serif;
 }
 
-#days {
-
-}
-
 .banner{
     padding: 2em;
     color: #D5AF52;
@@ -317,64 +313,6 @@ a:hover:before {
     .gallery-img:nth-child(2){
         grid-column: span 2;
     }
-}
-
-.column {
-    line-height: 1.3;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding: 0 16px;
-    width: fit-content;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-.col1 {
-    border-bottom: none;
-    display: flex;
-    -webkit-box-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 20px 72px 20px 0;
-    width: 215px;
-    border-right: 1px solid #E7C86A;
-}
-
-.col-mid {
-    border-bottom: none;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 20px 0 20px 0;
-    font-size: 60px;
-    width: 180px;
-    border-right: 1px solid #E7C86A;
-}
-
-.col2{
-    display: flex;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 20px 0 20px 72px;
-    width: 215px;
-}
-
-.text-center {
-    text-align: center;
-    line-height: 1.5rem;
-    border-bottom: none;
-    display: flex;
-    -webkit-box-pack: end;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    align-items: center;
 }
 .formbold-mb-5 {
     margin-bottom: 20px;

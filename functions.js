@@ -1,4 +1,5 @@
-
+const gallery = document.getElementById("gallery-list")
+const photoLink = document.getElementById("photos")
 const guestNameField = document.getElementById("guestName");
 const guestMax = document.getElementById('guestAmt');
 const submitButton = document.getElementById("submitBtn");
@@ -59,6 +60,12 @@ form.addEventListener('submit', e => {
 //start page with disabled button
 submitButton.disabled = true;
 
+photoLink.addEventListener( 'click', () => {
+    for(let i=0; i<=87; i++) {
+        gallery.innerHTML += "<img src='img/collage/Picture"+i+".jpg' alt=''>"
+    }
+});
+
 //adjust attendee/guest amount field and enable button only when a valid name is inputted
 guestNameField.addEventListener( "input", (e) => {
     guestMax.setAttribute('max', '0');
@@ -71,8 +78,9 @@ guestNameField.addEventListener( "input", (e) => {
 });
 
 var countDownDate = new Date("Jan 7, 2023 15:00:00").getTime();
+const countdownValue = document.getElementById("days");
 
-var x = setInterval(function () {
+setInterval(function () {
 
     // Get today's date and time
     var now = new Date().getTime();
@@ -86,17 +94,17 @@ var x = setInterval(function () {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Display the result in the element with id="days"
+    // Display the result in the element with id="demo"
     if (days > 0) {
-        document.getElementById("days").innerHTML = days + " days left";
+        countdownValue.innerHTML = days + " days left";
     } else if (hours > 0) {
-        document.getElementById("days").innerHTML = hours + " hours left";
+        countdownValue.innerHTML = hours + " hours left";
     } else if (minutes > 0) {
-        document.getElementById("days").innerHTML = minutes + " minutes left";
+        countdownValue.innerHTML = minutes + " minutes left";
     } else if (seconds > 0) {
-        document.getElementById("days").innerHTML = seconds + " seconds left";
+        countdownValue.innerHTML = seconds + " seconds left";
     } else {
-        document.getElementById("days").innerHTML = "Marriage in progress";
+        countdownValue.innerHTML = "Marriage in progress";
     }
 
 }, 1000);

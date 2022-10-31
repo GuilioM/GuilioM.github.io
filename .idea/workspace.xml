@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Commented quiz">
-      <change afterPath="$PROJECT_DIR$/RSVP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RSVP_submitted.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/agenda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons8-champagne-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons8-diamond-ring-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons8-dinner-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons8-disco-ball-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rsvp_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vert_line_rounded.png" afterDir="false" />
+    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Updated homepage image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSVP.html" beforeDir="false" afterPath="$PROJECT_DIR$/RSVP.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Story.html" beforeDir="false" afterPath="$PROJECT_DIR$/Story.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -85,7 +75,7 @@
       <workItem from="1666316625015" duration="598000" />
       <workItem from="1666460191044" duration="234000" />
       <workItem from="1666543665495" duration="22093000" />
-      <workItem from="1667093700584" duration="28375000" />
+      <workItem from="1667093700584" duration="32103000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -122,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665896572525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added RSVP form&#10;Removed Menu and Drinks&#10;Updated Photos">
+      <created>1667190174561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667190174561</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated homepage image">
+      <created>1667190693815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667190693815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,8 @@
     <MESSAGE value="Added real images&#10;Revised Story, Photos, Menus to 'coming soon'" />
     <MESSAGE value="Revised Story" />
     <MESSAGE value="Commented quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented quiz" />
+    <MESSAGE value="Added RSVP form&#10;Removed Menu and Drinks&#10;Updated Photos" />
+    <MESSAGE value="Updated homepage image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated homepage image" />
   </component>
 </project>
