@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Revised Story">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_08_22,_4_12_pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_08_22__4_12_pm__Changes_.xml" beforeDir="false" />
+    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Commented quiz">
+      <change afterPath="$PROJECT_DIR$/RSVP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RSVP_submitted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/agenda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons8-champagne-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons8-diamond-ring-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons8-dinner-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons8-disco-ball-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rsvp_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vert_line_rounded.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Story.html" beforeDir="false" afterPath="$PROJECT_DIR$/Story.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -40,6 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/guiliomarin/WebstormProjects/GuilioM.github.io&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -48,6 +60,11 @@
       <force-push-target remote-path="origin" branch="main" />
       <force-push-target remote-path="origin" branch="develop" />
     </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +80,12 @@
       <workItem from="1662128842946" duration="6029000" />
       <workItem from="1662395889905" duration="390000" />
       <workItem from="1662411813135" duration="3155000" />
-      <workItem from="1665892924522" duration="2029000" />
+      <workItem from="1665892924522" duration="2076000" />
+      <workItem from="1666309718508" duration="599000" />
+      <workItem from="1666316625015" duration="598000" />
+      <workItem from="1666460191044" duration="234000" />
+      <workItem from="1666543665495" duration="22093000" />
+      <workItem from="1667093700584" duration="28375000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -93,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662346431626</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commented quiz">
+      <created>1665896572525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665896572525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +145,7 @@
     <MESSAGE value="Added fonts&#10;Revised main image subtitle" />
     <MESSAGE value="Added real images&#10;Revised Story, Photos, Menus to 'coming soon'" />
     <MESSAGE value="Revised Story" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised Story" />
+    <MESSAGE value="Commented quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented quiz" />
   </component>
 </project>
