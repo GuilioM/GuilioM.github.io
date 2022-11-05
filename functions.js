@@ -34,7 +34,7 @@ const guests = [
     ["Tia Maria", 1],
     ["Tia Melvi and Tio Trudes", 2],
     ["Tio Joe & Tia Carla", 2],
-    ["Ms. Tiann Marin", 1],
+    ["Ms. Teann Marin", 1],
     ["Ms. Saskia Marin", 1],
     ["Tio Luigi and Andrea", 2],
     ["Mr. Moshea Smith", 1],
