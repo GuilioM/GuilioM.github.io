@@ -43,6 +43,8 @@ const guests = [
     ["Mr. Keenan Bernard", 2],
     ["Ms. Ritisha Hohenkirk", 1],
     ["Ms. Marissa Elrington", 1],
+    ["Ms. Jennifer Cairns", 1],
+    ["Irela & Luis Pastor", 2],
 ];
 const scriptURL = 'https://script.google.com/macros/s/AKfycbytJOC8hYHkmTJESBCGVGdaarHE-LDrXlX1t0Fz9n-lV_4DiCKdzuZ46a1GdcozSqRMBQ/exec'
 const form = document.forms['submit-to-google-sheet']
