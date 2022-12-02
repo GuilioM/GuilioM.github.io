@@ -56,17 +56,18 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
 
-    document.getElementById('form-wrapper').innerHTML = "<label class='formbold-form-label-2'>RSVP Submitted. <br> See you at the Wedding!</label>"
+    document.getElementById('form-wrapper').innerHTML = "<label class='formbold-form-label-2'>RSVP Submitted. <br><br> See you at the Wedding!</label>"
 })
 
 //start page with disabled button
 submitButton.disabled = true;
 
-photoLink.addEventListener( 'click', () => {
-    for(let i=0; i<=87; i++) {
-        gallery.innerHTML += "<img src='img/collage/Picture"+i+".jpg' alt=''>"
+/* repeat img in div for each img in /img
+ function loadGallery() {
+    for(var i=1; i<=87; i++) {
+        gallery.innerHTML += "<div class=\"col-sm-12 col-md-8\"><a class=\"lightbox\" href=\"img/collage/Picture"+i+".jpg\"><img src=\"img/collage/Picture"+i+".jpg\" alt=\"\"></a></div>"
     }
-});
+};*/
 
 //adjust attendee/guest amount field and enable button only when a valid name is inputted
 guestNameField.addEventListener( "input", (e) => {

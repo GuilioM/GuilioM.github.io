@@ -5,6 +5,7 @@ root {
 
 html, body, header {
     margin: 0;
+    min-height: 10vh;
     padding: 0;
     width: 100%;
     line-height: 150%;
@@ -418,4 +419,26 @@ a:hover:before {
     .sm\:w-half {
         width: 50%;
     }
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
 }

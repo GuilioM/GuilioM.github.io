@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Updated story text">
+    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Updated guest list x2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSVP.html" beforeDir="false" afterPath="$PROJECT_DIR$/RSVP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSVP_submitted.html" beforeDir="false" afterPath="$PROJECT_DIR$/RSVP_submitted.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture26.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture33.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture34.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture45.HEIC" beforeDir="false" afterPath="$PROJECT_DIR$/img/collage/Picture45.HEIC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture50.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +84,14 @@
       <workItem from="1666543665495" duration="22093000" />
       <workItem from="1667093700584" duration="36063000" />
       <workItem from="1667248141593" duration="836000" />
-      <workItem from="1667682634170" duration="209000" />
+      <workItem from="1667682634170" duration="886000" />
+      <workItem from="1667778647380" duration="129000" />
+      <workItem from="1668908143694" duration="525000" />
+      <workItem from="1668977426168" duration="1222000" />
+      <workItem from="1669143346269" duration="599000" />
+      <workItem from="1669406774238" duration="1313000" />
+      <workItem from="1669686242818" duration="638000" />
+      <workItem from="1669952045227" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -137,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667224743361</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated story text">
+      <created>1667682856523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667682856524</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated guest list x2">
+      <created>1667778758923</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667778758923</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +198,7 @@
     <MESSAGE value="Updated homepage image" />
     <MESSAGE value="Updated countdown and Photos.html" />
     <MESSAGE value="Updated story text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated story text" />
+    <MESSAGE value="Updated guest list x2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated guest list x2" />
   </component>
 </project>
