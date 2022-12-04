@@ -1,21 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Updated guest list x2">
+    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Bootstrap table with images lined up">
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture31.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture32.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture36.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture37.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture38.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture40.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture41.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture42.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture43.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture44.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture46.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture47.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture48.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture49.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture51.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture52.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture53.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture54.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture55.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture56.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture57.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture58.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture59.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture60.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture61.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture62.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture63.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture64.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture65.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture66.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture67.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture68.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture69.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture70.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture71.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture72.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture73.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture74.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture75.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture76.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture77.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture78.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture86.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture88.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture89.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/collage/Picture90.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSVP.html" beforeDir="false" afterPath="$PROJECT_DIR$/RSVP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSVP_submitted.html" beforeDir="false" afterPath="$PROJECT_DIR$/RSVP_submitted.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture26.HEIC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture33.HEIC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture34.HEIC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture45.HEIC" beforeDir="false" afterPath="$PROJECT_DIR$/img/collage/Picture45.HEIC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture50.HEIC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/collage/Picture7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture22.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture23.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture24.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture25.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture27.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture30.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture31.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture32.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture36.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture37.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture38.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture39.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture40.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture41.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture42.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture43.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture44.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture45.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture46.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture47.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture48.heic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture49.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture51.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture52.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture53.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture54.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture55.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture56.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture57.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture58.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture59.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture60.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture61.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture62.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture63.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture64.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture65.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture66.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture67.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture68.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture69.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture70.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture71.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture72.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture73.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture74.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture75.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture76.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture77.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture78.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/collage/Picture86.HEIC" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +184,7 @@
       <workItem from="1669143346269" duration="599000" />
       <workItem from="1669406774238" duration="1313000" />
       <workItem from="1669686242818" duration="638000" />
-      <workItem from="1669952045227" duration="198000" />
+      <workItem from="1669952045227" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -170,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667778758923</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Bootstrap table with images lined up">
+      <created>1669952480557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669952480557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +299,7 @@
     <MESSAGE value="Updated countdown and Photos.html" />
     <MESSAGE value="Updated story text" />
     <MESSAGE value="Updated guest list x2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated guest list x2" />
+    <MESSAGE value="Bootstrap table with images lined up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap table with images lined up" />
   </component>
 </project>

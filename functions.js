@@ -48,11 +48,13 @@ const guests = [
 ];
 const scriptURL = 'https://script.google.com/macros/s/AKfycbytJOC8hYHkmTJESBCGVGdaarHE-LDrXlX1t0Fz9n-lV_4DiCKdzuZ46a1GdcozSqRMBQ/exec'
 const form = document.forms['submit-to-google-sheet']
+var fs = require('fs');
+var files = fs.readdirSync('img/collage/');
 
 //submit form data to google sheets
 form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
 
@@ -62,15 +64,14 @@ form.addEventListener('submit', e => {
 //start page with disabled button
 submitButton.disabled = true;
 
-/* repeat img in div for each img in /img
- function loadGallery() {
-    for(var i=1; i<=87; i++) {
-        gallery.innerHTML += "<div class=\"col-sm-12 col-md-8\"><a class=\"lightbox\" href=\"img/collage/Picture"+i+".jpg\"><img src=\"img/collage/Picture"+i+".jpg\" alt=\"\"></a></div>"
-    }
-};*/
+/* repeat img in div for each img in /img */
+files.foreach(loadGallery(currentValue, index));
+function loadGallery(currentValue, index) {
+    gallery.innerHTML += "<div class=\"col-sm-12 col-md-8\"><a class=\"lightbox\" href=\"img/collage/" + currentValue + "\"><img src=\"img/collage/href=\"img/collage/" + currentValue + " alt=\"\"></a></div>\n"
+};
 
 //adjust attendee/guest amount field and enable button only when a valid name is inputted
-guestNameField.addEventListener( "input", (e) => {
+guestNameField.addEventListener("input", (e) => {
     guestMax.setAttribute('max', '0');
     guestMax.value = 0;
     submitButton.disabled = true;
