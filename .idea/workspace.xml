@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Update Images and closed rsvp">
-      <change afterPath="$PROJECT_DIR$/testing.html" afterDir="false" />
+    <list default="true" id="e598b58a-2205-4bdb-a0ed-15cd11941380" name="Changes" comment="Update Image Gallery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos.html" afterDir="false" />
     </list>
@@ -82,7 +81,7 @@
       <workItem from="1669686242818" duration="638000" />
       <workItem from="1669952045227" duration="2360000" />
       <workItem from="1670191450804" duration="158000" />
-      <workItem from="1670786294746" duration="6000" />
+      <workItem from="1670786294746" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Recovered">
       <created>1661812047427</created>
@@ -175,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670191504107</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update Image Gallery">
+      <created>1670786319962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670786319962</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Image Gallery">
+      <created>1670786443362</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670786443362</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +219,7 @@
     <MESSAGE value="Updated guest list x2" />
     <MESSAGE value="Bootstrap table with images lined up" />
     <MESSAGE value="Update Images and closed rsvp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Images and closed rsvp" />
+    <MESSAGE value="Update Image Gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Image Gallery" />
   </component>
 </project>
